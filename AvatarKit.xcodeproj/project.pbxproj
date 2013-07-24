@@ -25,6 +25,28 @@
 		801D81A4179F623D00692622 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801D817C179F623D00692622 /* UIKit.framework */; };
 		801D81AC179F623D00692622 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 801D81AA179F623D00692622 /* InfoPlist.strings */; };
 		801D81AE179F623D00692622 /* AvatarKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D81AD179F623D00692622 /* AvatarKitTests.m */; };
+		801D81B9179F62B800692622 /* AvatarKitScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D81B8179F62B800692622 /* AvatarKitScene.m */; };
+		801D81BC179F65DA00692622 /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D81BB179F65DA00692622 /* Avatar.m */; };
+		801D81BF179F665A00692622 /* AvatarBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D81BE179F665A00692622 /* AvatarBase.m */; };
+		801D81C2179F669E00692622 /* AvatarSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D81C1179F669E00692622 /* AvatarSkin.m */; };
+		801D81C6179F670600692622 /* AvatarEyes.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D81C5179F670600692622 /* AvatarEyes.m */; };
+		801D81C9179F671B00692622 /* AvatarHair.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D81C8179F671B00692622 /* AvatarHair.m */; };
+		801D81CF179F6F3100692622 /* AVATAR_SKIN_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81CC179F6F3100692622 /* AVATAR_SKIN_Beige.png */; };
+		801D81D0179F6F3100692622 /* AVATAR_SKIN_Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81CD179F6F3100692622 /* AVATAR_SKIN_Dark.png */; };
+		801D81D1179F6F3100692622 /* AVATAR_SKIN_Porcelain.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81CE179F6F3100692622 /* AVATAR_SKIN_Porcelain.png */; };
+		801D81D6179F70EF00692622 /* AVATAR_EYE_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81D3179F70EF00692622 /* AVATAR_EYE_Blue.png */; };
+		801D81D7179F70EF00692622 /* AVATAR_EYE_Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81D4179F70EF00692622 /* AVATAR_EYE_Brown.png */; };
+		801D81D8179F70EF00692622 /* AVATAR_EYE_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81D5179F70EF00692622 /* AVATAR_EYE_Green.png */; };
+		801D81DA179F73EF00692622 /* AVATAR_Female.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81D9179F73EF00692622 /* AVATAR_Female.png */; };
+		801D81E5179F76EE00692622 /* AVATAR_HAIR_FEMALE_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81DC179F76EE00692622 /* AVATAR_HAIR_FEMALE_Black.png */; };
+		801D81E6179F76EE00692622 /* AVATAR_HAIR_FEMALE_Blonde.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81DD179F76EE00692622 /* AVATAR_HAIR_FEMALE_Blonde.png */; };
+		801D81E7179F76EE00692622 /* AVATAR_HAIR_FEMALE_Brunette.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81DE179F76EE00692622 /* AVATAR_HAIR_FEMALE_Brunette.png */; };
+		801D81E8179F76EE00692622 /* AVATAR_HAIR_FEMALE_Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81DF179F76EE00692622 /* AVATAR_HAIR_FEMALE_Red.png */; };
+		801D81E9179F76EE00692622 /* AVATAR_HAIR_MALE_Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81E0179F76EE00692622 /* AVATAR_HAIR_MALE_Black.png */; };
+		801D81EA179F76EE00692622 /* AVATAR_HAIR_MALE_Blonde.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81E1179F76EE00692622 /* AVATAR_HAIR_MALE_Blonde.png */; };
+		801D81EB179F76EE00692622 /* AVATAR_HAIR_MALE_Brunette.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81E2179F76EE00692622 /* AVATAR_HAIR_MALE_Brunette.png */; };
+		801D81EC179F76EE00692622 /* AVATAR_HAIR_MALE_Ravel.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81E3179F76EE00692622 /* AVATAR_HAIR_MALE_Ravel.png */; };
+		801D81ED179F76EE00692622 /* AVATAR_HAIR_MALE_Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 801D81E4179F76EE00692622 /* AVATAR_HAIR_MALE_Red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +84,34 @@
 		801D81A9179F623D00692622 /* AvatarKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvatarKitTests-Info.plist"; sourceTree = "<group>"; };
 		801D81AB179F623D00692622 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		801D81AD179F623D00692622 /* AvatarKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatarKitTests.m; sourceTree = "<group>"; };
+		801D81B7179F62B800692622 /* AvatarKitScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarKitScene.h; sourceTree = "<group>"; };
+		801D81B8179F62B800692622 /* AvatarKitScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarKitScene.m; sourceTree = "<group>"; };
+		801D81BA179F65DA00692622 /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		801D81BB179F65DA00692622 /* Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
+		801D81BD179F665A00692622 /* AvatarBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarBase.h; sourceTree = "<group>"; };
+		801D81BE179F665A00692622 /* AvatarBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarBase.m; sourceTree = "<group>"; };
+		801D81C0179F669E00692622 /* AvatarSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarSkin.h; sourceTree = "<group>"; };
+		801D81C1179F669E00692622 /* AvatarSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarSkin.m; sourceTree = "<group>"; };
+		801D81C4179F670600692622 /* AvatarEyes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarEyes.h; sourceTree = "<group>"; };
+		801D81C5179F670600692622 /* AvatarEyes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarEyes.m; sourceTree = "<group>"; };
+		801D81C7179F671B00692622 /* AvatarHair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarHair.h; sourceTree = "<group>"; };
+		801D81C8179F671B00692622 /* AvatarHair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarHair.m; sourceTree = "<group>"; };
+		801D81CC179F6F3100692622 /* AVATAR_SKIN_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_SKIN_Beige.png; sourceTree = "<group>"; };
+		801D81CD179F6F3100692622 /* AVATAR_SKIN_Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_SKIN_Dark.png; sourceTree = "<group>"; };
+		801D81CE179F6F3100692622 /* AVATAR_SKIN_Porcelain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_SKIN_Porcelain.png; sourceTree = "<group>"; };
+		801D81D3179F70EF00692622 /* AVATAR_EYE_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_EYE_Blue.png; sourceTree = "<group>"; };
+		801D81D4179F70EF00692622 /* AVATAR_EYE_Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_EYE_Brown.png; sourceTree = "<group>"; };
+		801D81D5179F70EF00692622 /* AVATAR_EYE_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_EYE_Green.png; sourceTree = "<group>"; };
+		801D81D9179F73EF00692622 /* AVATAR_Female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AVATAR_Female.png; path = Images/AVATAR_Female.png; sourceTree = "<group>"; };
+		801D81DC179F76EE00692622 /* AVATAR_HAIR_FEMALE_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_FEMALE_Black.png; sourceTree = "<group>"; };
+		801D81DD179F76EE00692622 /* AVATAR_HAIR_FEMALE_Blonde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_FEMALE_Blonde.png; sourceTree = "<group>"; };
+		801D81DE179F76EE00692622 /* AVATAR_HAIR_FEMALE_Brunette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_FEMALE_Brunette.png; sourceTree = "<group>"; };
+		801D81DF179F76EE00692622 /* AVATAR_HAIR_FEMALE_Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_FEMALE_Red.png; sourceTree = "<group>"; };
+		801D81E0179F76EE00692622 /* AVATAR_HAIR_MALE_Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_MALE_Black.png; sourceTree = "<group>"; };
+		801D81E1179F76EE00692622 /* AVATAR_HAIR_MALE_Blonde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_MALE_Blonde.png; sourceTree = "<group>"; };
+		801D81E2179F76EE00692622 /* AVATAR_HAIR_MALE_Brunette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_MALE_Brunette.png; sourceTree = "<group>"; };
+		801D81E3179F76EE00692622 /* AVATAR_HAIR_MALE_Ravel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_MALE_Ravel.png; sourceTree = "<group>"; };
+		801D81E4179F76EE00692622 /* AVATAR_HAIR_MALE_Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AVATAR_HAIR_MALE_Red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +173,15 @@
 		801D8180179F623D00692622 /* AvatarKit */ = {
 			isa = PBXGroup;
 			children = (
+				801D81C3179F66AC00692622 /* Domain */,
 				801D8189179F623D00692622 /* AppDelegate.h */,
 				801D818A179F623D00692622 /* AppDelegate.m */,
 				801D818C179F623D00692622 /* Main_iPhone.storyboard */,
 				801D818F179F623D00692622 /* Main_iPad.storyboard */,
 				801D8192179F623D00692622 /* ViewController.h */,
 				801D8193179F623D00692622 /* ViewController.m */,
+				801D81B7179F62B800692622 /* AvatarKitScene.h */,
+				801D81B8179F62B800692622 /* AvatarKitScene.m */,
 				801D8195179F623D00692622 /* MyScene.h */,
 				801D8196179F623D00692622 /* MyScene.m */,
 				801D8198179F623D00692622 /* Spaceship.png */,
@@ -141,6 +194,7 @@
 		801D8181179F623D00692622 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				801D81CA179F6F1C00692622 /* Images */,
 				801D8182179F623D00692622 /* AvatarKit-Info.plist */,
 				801D8183179F623D00692622 /* InfoPlist.strings */,
 				801D8186179F623D00692622 /* main.m */,
@@ -165,6 +219,73 @@
 				801D81AA179F623D00692622 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		801D81C3179F66AC00692622 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				801D81C0179F669E00692622 /* AvatarSkin.h */,
+				801D81C1179F669E00692622 /* AvatarSkin.m */,
+				801D81BA179F65DA00692622 /* Avatar.h */,
+				801D81BB179F65DA00692622 /* Avatar.m */,
+				801D81BD179F665A00692622 /* AvatarBase.h */,
+				801D81BE179F665A00692622 /* AvatarBase.m */,
+				801D81C4179F670600692622 /* AvatarEyes.h */,
+				801D81C5179F670600692622 /* AvatarEyes.m */,
+				801D81C7179F671B00692622 /* AvatarHair.h */,
+				801D81C8179F671B00692622 /* AvatarHair.m */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		801D81CA179F6F1C00692622 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				801D81DB179F76EE00692622 /* Hair */,
+				801D81D9179F73EF00692622 /* AVATAR_Female.png */,
+				801D81D2179F70EF00692622 /* Eye */,
+				801D81CB179F6F3100692622 /* Skin */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		801D81CB179F6F3100692622 /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				801D81CC179F6F3100692622 /* AVATAR_SKIN_Beige.png */,
+				801D81CD179F6F3100692622 /* AVATAR_SKIN_Dark.png */,
+				801D81CE179F6F3100692622 /* AVATAR_SKIN_Porcelain.png */,
+			);
+			name = Skin;
+			path = Images/Skin;
+			sourceTree = "<group>";
+		};
+		801D81D2179F70EF00692622 /* Eye */ = {
+			isa = PBXGroup;
+			children = (
+				801D81D3179F70EF00692622 /* AVATAR_EYE_Blue.png */,
+				801D81D4179F70EF00692622 /* AVATAR_EYE_Brown.png */,
+				801D81D5179F70EF00692622 /* AVATAR_EYE_Green.png */,
+			);
+			name = Eye;
+			path = Images/Eye;
+			sourceTree = "<group>";
+		};
+		801D81DB179F76EE00692622 /* Hair */ = {
+			isa = PBXGroup;
+			children = (
+				801D81DC179F76EE00692622 /* AVATAR_HAIR_FEMALE_Black.png */,
+				801D81DD179F76EE00692622 /* AVATAR_HAIR_FEMALE_Blonde.png */,
+				801D81DE179F76EE00692622 /* AVATAR_HAIR_FEMALE_Brunette.png */,
+				801D81DF179F76EE00692622 /* AVATAR_HAIR_FEMALE_Red.png */,
+				801D81E0179F76EE00692622 /* AVATAR_HAIR_MALE_Black.png */,
+				801D81E1179F76EE00692622 /* AVATAR_HAIR_MALE_Blonde.png */,
+				801D81E2179F76EE00692622 /* AVATAR_HAIR_MALE_Brunette.png */,
+				801D81E3179F76EE00692622 /* AVATAR_HAIR_MALE_Ravel.png */,
+				801D81E4179F76EE00692622 /* AVATAR_HAIR_MALE_Red.png */,
+			);
+			name = Hair;
+			path = Images/Hair;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +364,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801D81DA179F73EF00692622 /* AVATAR_Female.png in Resources */,
+				801D81EA179F76EE00692622 /* AVATAR_HAIR_MALE_Blonde.png in Resources */,
+				801D81EC179F76EE00692622 /* AVATAR_HAIR_MALE_Ravel.png in Resources */,
+				801D81CF179F6F3100692622 /* AVATAR_SKIN_Beige.png in Resources */,
+				801D81E8179F76EE00692622 /* AVATAR_HAIR_FEMALE_Red.png in Resources */,
+				801D81D0179F6F3100692622 /* AVATAR_SKIN_Dark.png in Resources */,
 				801D8199179F623D00692622 /* Spaceship.png in Resources */,
+				801D81D1179F6F3100692622 /* AVATAR_SKIN_Porcelain.png in Resources */,
 				801D819B179F623D00692622 /* Images.xcassets in Resources */,
+				801D81D8179F70EF00692622 /* AVATAR_EYE_Green.png in Resources */,
 				801D8191179F623D00692622 /* Main_iPad.storyboard in Resources */,
+				801D81EB179F76EE00692622 /* AVATAR_HAIR_MALE_Brunette.png in Resources */,
 				801D818E179F623D00692622 /* Main_iPhone.storyboard in Resources */,
+				801D81D7179F70EF00692622 /* AVATAR_EYE_Brown.png in Resources */,
+				801D81E9179F76EE00692622 /* AVATAR_HAIR_MALE_Black.png in Resources */,
+				801D81E7179F76EE00692622 /* AVATAR_HAIR_FEMALE_Brunette.png in Resources */,
 				801D8185179F623D00692622 /* InfoPlist.strings in Resources */,
+				801D81D6179F70EF00692622 /* AVATAR_EYE_Blue.png in Resources */,
+				801D81ED179F76EE00692622 /* AVATAR_HAIR_MALE_Red.png in Resources */,
+				801D81E6179F76EE00692622 /* AVATAR_HAIR_FEMALE_Blonde.png in Resources */,
+				801D81E5179F76EE00692622 /* AVATAR_HAIR_FEMALE_Black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +403,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801D81BC179F65DA00692622 /* Avatar.m in Sources */,
 				801D8197179F623D00692622 /* MyScene.m in Sources */,
+				801D81BF179F665A00692622 /* AvatarBase.m in Sources */,
 				801D8194179F623D00692622 /* ViewController.m in Sources */,
 				801D818B179F623D00692622 /* AppDelegate.m in Sources */,
 				801D8187179F623D00692622 /* main.m in Sources */,
+				801D81C2179F669E00692622 /* AvatarSkin.m in Sources */,
+				801D81C6179F670600692622 /* AvatarEyes.m in Sources */,
+				801D81C9179F671B00692622 /* AvatarHair.m in Sources */,
+				801D81B9179F62B800692622 /* AvatarKitScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

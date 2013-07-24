@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "MyScene.h"
 
+#import "AvatarKitScene.h"
+
 @implementation ViewController
 
 - (void)viewDidLoad
@@ -21,9 +23,9 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
+    AvatarKitScene *scene = [AvatarKitScene sceneWithSize:skView.bounds.size];
+    [scene setScaleMode:SKSceneScaleModeAspectFill];
+        
     // Present the scene.
     [skView presentScene:scene];
 }
